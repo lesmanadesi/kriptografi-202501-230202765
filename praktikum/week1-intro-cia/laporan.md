@@ -1,5 +1,5 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
+Minggu ke-: minggu pertama 
 Topik: Sejarah Kriptografi
 Nama: Lesmana Desi 
 NIM: 230202765
