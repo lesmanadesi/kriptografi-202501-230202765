@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Topik: Sejarah Kriptografi
+Nama: Lesmana Desi 
+NIM: 230202765
+Kelas: 5IKRB 
 
 ---
 
