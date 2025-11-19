@@ -73,8 +73,8 @@ Hasil:
 
 
 Pembahasan:
-Hasil perhitungan keamanan kriptografi membandingkan Caesar Cipher (sandi lemah) dan AES-128 (sandi kuat). Entropi Ruang Kunci menunjukkan ukuran ruang kunci: Caesar Cipher hanya memiliki 4.7004 bit entropi, sementara AES-128 memiliki 128.0 bit, menegaskan ruang kunci AES-128 jauh lebih besar dan aman. Lebih lanjut, Jarak Unicity Caesar Cipher yang hanya 1.333 karakter berarti sandi tersebut dapat dipecahkan secara teoritis hanya dengan menganalisis sedikit ciphertext. Perbandingan Waktu Brute Force memperjelas perbedaan ini: Caesar Cipher dapat dipecahkan hampir instan ($3 \times 10^{-10}$ hari), sedangkan AES-128 memerlukan waktu $3.9 \times 10^{27}$ hari, menjadikannya aman dari serangan brute-force pada teknologi saat ini.
-
+Berdasarkan hasil perhitungan pada program, dapat dilihat bahwa algoritma Caesar Cipher memiliki tingkat keamanan yang sangat rendah. Hal ini ditunjukkan oleh nilai entropinya yang hanya sekitar 4,7 bit, yang berarti ruang kuncinya sangat kecil dan mudah ditebak. Unicity distance Caesar Cipher juga hanya sekitar 1,33, sehingga cipher ini dapat dengan mudah dipecahkan menggunakan sedikit ciphertext, terutama bila terdapat pola bahasa yang berulang. Perhitungan waktu brute force menunjukkan bahwa seluruh kemungkinan kunci Caesar Cipher dapat diuji hampir secara instan, yaitu hanya sekitar 3×10⁻¹⁰ hari atau kurang dari satu detik. Kondisi ini menegaskan bahwa Caesar Cipher tidak layak digunakan sebagai mekanisme keamanan modern.
+Sebaliknya, AES-128 menunjukkan tingkat keamanan yang sangat tinggi dengan entropi sebesar 128 bit, menandakan ruang kuncinya yang sangat besar. Waktu brute force yang diperlukan untuk mencoba seluruh kemungkinan kunci AES-128 mencapai 3,9×10²⁷ hari, jumlah waktu yang tidak mungkin dicapai meskipun dengan superkomputer paling kuat sekalipun. Perbandingan ini menunjukkan perbedaan yang sangat signifikan antara cipher klasik seperti Caesar Cipher dan cipher modern seperti AES, di mana AES-128 terbukti sangat aman terhadap serangan brute force maupun analisis kriptografi lainnya.
 
 ---
 
