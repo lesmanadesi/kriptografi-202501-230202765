@@ -50,7 +50,7 @@ def transpose_decrypt(ciphertext, key=5): num_of_cols = int(len(ciphertext) / ke
 
 Contoh uji
 msg = "TRANSPOSITIONCIPHER" enc = transpose_encrypt(msg, key=5) dec = transpose_decrypt(enc, key=5) print("Plaintext :", msg) print("Ciphertext:", enc) print("Decrypted :", dec)
----
+
 # 6. Hasil dan Pembahasan
 
 7. Jawaban Pertanyaan
@@ -59,7 +59,7 @@ msg = "TRANSPOSITIONCIPHER" enc = transpose_encrypt(msg, key=5) dec = transpose_
 2. Mengapa cipher klasik mudah diserang dengan analisis frekuensi? Karena cipher klasik tidak mengubah frekuensi kemunculan huruf secara signifikan. Pola distribusi huruf dalam bahasa alami tetap bisa dikenali, sehingga analis dapat menebak substitusi yang digunakan.
 
 3. Bandingkan kelebihan dan kelemahan cipher substitusi vs transposisi. Substitusi Cipher: Mengganti huruf, tetapi mempertahankan urutan. Lebih mudah diimplementasikan, namun pola frekuensi tetap terlihat. Transposisi Cipher: Menyusun ulang urutan huruf tanpa mengganti karakter. Lebih sulit dipecahkan dengan analisis frekuensi, tetapi masih bisa direkonstruksi dengan serangan posisi karakter.
-   ---
+   
 # 8. Kesimpulan
 Berdasarkan percobaan yang dilakukan, dapat diketahui bahwa cipher klasik hanya mampu memberikan perlindungan yang sangat dasar karena metode enkripsinya masih sederhana dan mudah diprediksi. Baik Caesar Cipher maupun Vigenère Cipher menunjukkan bahwa pola bahasa pada plaintext masih terlihat dalam ciphertext, sehingga analisis frekuensi dapat digunakan untuk memecahkannya dengan relatif cepat. Hal ini membuktikan bahwa teknik penyandian tradisional tidak memiliki kekuatan keamanan yang memadai untuk kebutuhan komunikasi digital masa kini. Meskipun demikian, cipher klasik tetap memiliki nilai penting sebagai sarana untuk memahami prinsip-prinsip dasar enkripsi yang menjadi landasan berkembangnya kriptografi modern.
 ---
