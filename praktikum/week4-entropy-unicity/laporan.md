@@ -68,15 +68,8 @@ print("Waktu brute force AES-128 =", brute_force_time(2**128), "hari")
 
 ## 6. Hasil dan Pembahasan
 Hasil:
-Entropy ruang kunci 26 = 4.700439718141092 bit
+<img width="1919" height="1079" alt="Screenshot 2025-11-19 172914" src="https://github.com/user-attachments/assets/6349875f-77f2-4e32-8734-b069d1655844" />
 
-Entropy ruang kunci 2^128 = 128.0 bit
-
-Unicity Distance untuk Caesar Cipher = 1.3333333333333333
-
-Waktu brute force Caesar Cipher (26 kunci) = 3.0092592592592593e-10 hari
-
-Waktu brute force AES-128 = 3.938453320844195e+27 hari
 
 
 Pembahasan:
