@@ -1,20 +1,26 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 15
+Topik: tinycoin 
+Nama: Lesmana Desi
+NIM: 230202765
+Kelas: 5 IKRB
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:
 
----
+Mengembangkan proyek sederhana berbasis algoritma kriptografi.
+Mendokumentasikan proses implementasi proyek ke dalam repository Git.
+Menyusun laporan teknis hasil proyek akhir.
+
+--
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Tinycoin merupakan model cryptocurrency sederhana yang dirancang sebagai sarana pembelajaran untuk memahami konsep dasar mata uang kripto dan teknologi blockchain. Tinycoin tidak ditujukan sebagai sistem pembayaran nyata, melainkan sebagai simulasi untuk mempelajari bagaimana transaksi digital dicatat, divalidasi, dan diamankan secara terdesentralisasi.
+Tinycoin bekerja di atas blockchain, yaitu struktur data berbentuk rantai blok yang saling terhubung melalui nilai hash. Setiap blok menyimpan informasi transaksi, hash blok sebelumnya, timestamp, serta nonce yang digunakan dalam proses Proof of Work (PoW). Hash kriptografi, seperti SHA-256, berperan menjaga integritas data sehingga setiap perubahan pada blok dapat langsung terdeteksi.
+Dalam sistem Tinycoin, transaksi diverifikasi melalui mekanisme konsensus sederhana, umumnya menggunakan Proof of Work. Mekanisme ini mewajibkan penambang (miner) menyelesaikan perhitungan kriptografi tertentu sebelum sebuah blok dapat ditambahkan ke blockchain. Proses ini mencegah pemalsuan transaksi dan serangan double spending.
+Sebagai alat pembelajaran, Tinycoin membantu memahami prinsip penting cryptocurrency, seperti desentralisasi, keamanan kriptografi, dan transparansi transaksi. Dengan mempelajari Tinycoin, pengguna memperoleh gambaran awal tentang cara kerja sistem cryptocurrency nyata seperti Bitcoin, sekaligus memahami tantangan yang ada, termasuk efisiensi energi dan skalabilitas.
 
 ---
 
@@ -27,11 +33,12 @@ Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 ---
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
-2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
+Pada akhir sesi ini mahasiswa menghasilkan:
+
+Implementasi smart contract ERC20 (TinyCoin) menggunakan Solidity.
+Dokumentasi proyek di repository Git (kode, README, laporan).
+Laporan teknis berisi penjelasan implementasi, hasil pengujian, serta analisis keamanan dasar.
+Commit Git dengan format week15-tinycoin-erc20.
 
 ---
 
