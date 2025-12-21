@@ -34,29 +34,11 @@ Contoh format:
 ---
 
 ## 5. Source Code
-import random
-
-# parameter umum (disepakati publik)
-p = 23  # bilangan prima
-g = 5   # generator
-
-# private key masing-masing pihak
-a = random.randint(1, p-1)  # secret Alice
-b = random.randint(1, p-1)  # secret Bob
-
-# public key
-A = pow(g, a, p)
-B = pow(g, b, p)
-
-# exchange public key
-shared_secret_A = pow(B, a, p)
-shared_secret_B = pow(A, b, p)
-
-print("Kunci bersama Alice :", shared_secret_A)
-print("Kunci bersama Bob   :", shared_secret_B)  
+<img width="1494" height="1023" alt="Screenshot 2025-12-21 083252" src="https://github.com/user-attachments/assets/3970522e-989c-459f-b1f4-d035821add2d" />
 
 
 ## 6. Hasil dan Pembahasan
+<img width="1522" height="930" alt="Screenshot 2025-12-21 083333" src="https://github.com/user-attachments/assets/d9fe743f-d98e-4889-852d-f86475f86276" />
 
 
 
@@ -75,9 +57,6 @@ Diffie–Hellman merupakan salah satu algoritma fundamental dalam kriptografi mo
 ---
 
 ## 9. Daftar Pustaka
-1.Stallings, W. (2017). Cryptography and Network Security: Principles and Practice. Pearson Education.
-2.Schneier, B. (2015). Applied Cryptography: Protocols, Algorithms, and Source Code in C. John Wiley & Sons.
-
 ---
 
 ## 10. Commit Log
